@@ -1,0 +1,40 @@
+.alert-user {
+  display: block;
+
+  &-header,
+  &-content {
+    display: block;
+  }
+
+  &-header {
+    background: #dedede;
+    min-height: 200px;
+  }
+
+  &-content {
+    max-height: 200px;
+    padding: 40px;
+    overflow: scroll;
+    background: #fff;
+  }
+
+  &-footer {
+    padding: 40px;
+    background: #fff;
+  }
+}
+
+.cta-container {
+  display: block;
+  display: table;
+  margin: auto;
+
+  &-item {
+    float: left;
+    padding-right: 20px;
+
+    &:last-of-type {
+      padding-right: 0;
+    }
+  }
+}
